@@ -13,7 +13,7 @@
   - name: print the variable
     # vars:
     #   GREET: "TASK"
-      ansible.builtin.debug:
-        msg: "Hello from {{ GREET }}"
+    ansible.builtin.debug:
+      msg: "Hello from {{ GREET }}"
 
 
